@@ -1,0 +1,1 @@
+require (          ["classes/movie"],          function(movie){                             movie.setTitle("Terminator");               movie.setRating(21);               movie.setId(4);                             }       );          
