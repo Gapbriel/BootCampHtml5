@@ -1,0 +1,45 @@
+header, nav, article, section, footer, figure, aside {
+    display: block;
+}
+
+@media screen and (min-width:800px) { 
+       #id1{
+   	   -moz-column-count: 1;
+       	-moz-column-gap: 40px;
+	      -webkit-column-count: 1;
+	      -webkit-column-gap: 400px;
+	      column-count: 1;
+	      column-gap: 40px;
+   	 }
+   
+     #img{
+   	   visibility: hidden;
+   	}
+   	
+     #img2{
+         visibility: hidden;
+   	} 
+   	
+   	
+   }
+
+   
+@media screen and (max-width:800px) { 
+       #id1{
+   	   -moz-column-count: 2;
+       	-moz-column-gap: 40px;
+	      -webkit-column-count: 2;
+	      -webkit-column-gap: 400px;
+	      column-count: 2;
+	      column-gap: 40px;
+   	 }
+   
+     #img{
+   	   
+   	}
+   	
+     #img2{
+       
+   	}
+   }
+      
