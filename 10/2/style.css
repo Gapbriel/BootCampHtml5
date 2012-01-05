@@ -1,0 +1,28 @@
+header, nav, article, section, footer, figure, aside {
+    display: block;
+}
+
+@media screen and (max-width:1200px) { 
+       #id1{
+   	   -moz-column-count: 4;
+       	-moz-column-gap: 20px;
+	      -webkit-column-count: 4;
+	      -webkit-column-gap: 20px;
+	      column-count: 4;
+	      column-gap: 20px;
+   	 }
+   
+     #img{
+   	   height:  100%       
+   		width: 100%;
+   	}
+   	
+     #img2{
+         height:200%;
+   		width: 200%;  
+   	}
+   	
+  
+   }
+
+
