@@ -1,0 +1,125 @@
+
+
+/****** b menu changes when mouse over ***/
+.menu:hover{
+   	background-color:aqua;
+}
+
+.menu:active{
+   	color: black;
+   	background: gray;
+}
+/******c lines ***************************/
+
+.home{
+     border-bottom: 5px solid fuchsia; 
+	  border-left: 5px solid fuchsia;
+	  line-height: normal;
+	  
+}
+
+.day1{
+     border-bottom: 5px solid fuchsia; 	  
+}
+
+.day2{
+     border-bottom: 5px solid fuchsia;
+}
+.day3{
+     border-bottom: 5px solid fuchsia; 
+	  border-right: 5px solid fuchsia;
+	  line-height: normal;	  
+}
+
+/*************d************************/
+
+.mainContent article:first-of-type{
+ float: left;
+ width: 48%;
+ }
+
+/***************E***********************/
+
+.hiOne{
+  
+	background-color: orange;
+}
+
+.hiTwo{
+	background-color: olive;
+}
+
+.hiThree{
+	background-color: aqua;
+}
+
+/****************F********************************/
+span[class^="hi"]{
+	
+background-color: lime;
+
+}
+
+/********************G****************************/
+span[class$="One"]{
+	
+background-color: red;
+
+}
+
+/*******************H*****************************/
+
+span{
+	background-color: orange;
+}
+
+/********************I************************/
+
+.href1{
+	color:orange;
+}
+
+.href2{
+	color:red;
+}
+
+
+/********************J****************************/
+
+p:empty{
+	display:none;
+}
+
+/******************K**************************/
+
+
+
+article{	
+   
+ -moz-text-shadow: 5px 5px 5px #FF0000 ;
+   text-align: center; 
+   
+-webkit-text-shadow: 5px 5px 5px #FF0000;
+    text-align: center;    
+
+text-shadow: 5px 5px 5px #FF0000;
+    text-align: center; 
+   
+ }
+  
+ /******************L**************************/
+
+aside
+{
+transform: rotate(30deg);
+-ms-transform: rotate(30deg); /* IE 9 */
+-webkit-transform: rotate(30deg); /* Safari and Chrome */
+-o-transform: rotate(30deg); /* Opera */
+-moz-transform: rotate(30deg); /* Firefox */
+}
+ 
+ 
+ 
+ 
+ 
+ /********************************************/
