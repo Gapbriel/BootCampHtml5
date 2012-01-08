@@ -1,0 +1,12 @@
+.appcache-message {
+              text-align: center;
+            }
+ .appcache-message img {
+ 				 vertical-align: middle;
+ 				 cursor: pointer;
+ }
+ 
+ body{
+ 	 background-color: gray;
+ }
+            
